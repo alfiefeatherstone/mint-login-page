@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    margin: 2% 10% 0 10%;
+    width: 800px;
+    padding-bottom: 5em;
+}
+
+html *{
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    box-shadow: -1px 2px 5px 1px rgba(173,173,173,1);
+    height: auto;
+    padding: 1em;
+}
+
+
+/* The two transforms fix float problem -> the image has more height than the 2 links so the links float to the top of the nav container. The transforms flip the container so the text floats to the right end. The other transforms are to flip the text + logo right way up */
+nav {
+    width: 100%;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+nav > a {
+    float: left;
+    transform: rotate(180deg);
+    margin: 1em 1em 0 0;
+    text-decoration: none;
+}
+nav a:last-of-type {
+    font-weight: bold;
+    border-right: 1px solid black;
+    padding-right: 1em;
+}
+nav img {
+    float: right;
+    transform: rotate(180deg);
+}
+
+#form-content {
+    min-height: 90%;
+    width: auto;
+    background-color: white;
+    display: table;
+    position: relative;
+    padding-top: 2em;
+}
+
+#form-content > div {
+    display: table-cell;
+}
+
+#left {
+    background-color: white;
+    width: 65%;
+    border-right: gray 1px solid;
+    margin-right: 5em;
+    line-height: 1.5em;
+    font-size: 14px;
+    padding-right: 3em;
+}
+
+#left > h2 {
+    padding-left: 12px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: normal;
+    margin-top: 0;
+}
+
+button {
+    margin-left: 12px;
+}
+
+#right {
+    background-color: white;
+    width: 45%;
+    padding: 0 1em 0 2em;
+}
+
+#rightgrey > ul {
+    font-size: 12px;
+}
+
+#rightgrey > ul > li {
+        margin-bottom: 1em;
+}
+
+#rightgrey {
+    background-color: gainsboro;
+    width: auto;
+    padding-bottom: 374px;
+    padding-top: 20px;
+}
+
+#rightgrey h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+fieldset {
+    border-width: 0;
+}
+
+#mini-footer {
+    width: 100%;
+    height: 5em;
+}
+
+#mini-footer > button {
+    display: block;
+    padding: .5em 1em;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border-radius: 2px;
+    border: none;
+}
+#mini-footer > p {
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 1.5em;
+    line-height: 2em;
+    width: 70%;
+}
+label {
+    line-height: 4em;
+}
+input[type="checkbox"] {
+    display: inline;
+    padding-left: 14px;
+}
+footer{
+    margin: 2em auto 0 auto;
+    text-align: center;
+}
+footer > ul {
+    list-style: none;
+    display: block;
+    font-size: 12px;
+    margin: 0 auto 2em auto;
+}
+.border-right {
+    border-right: black solid 1px;
+    margin-right: 1em;
+    padding-right: 1em;
+}
+
+footer > ul > li {
+    display: inline-block;
+    font-size: 14px;
+    
+}
+footer > p {
+    font-size: 10px;
+    margin: 0 auto 0 auto;
+}

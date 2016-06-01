@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" text="text/css" link="mint.css">
+</head>
+<body>
+  <nav>
+    <img src="">
+    <a href=""></a>
+    <a href=""></a>
+  </nav>
+  <section>
+    <div id="left">
+    <form>
+    </form>
+    </div>
+    <div id ="right">
+    </div>
+  </section>
+  <footer>
+  </footer>
+  
+
+</body>
+</html>
